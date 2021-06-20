@@ -1,6 +1,28 @@
 .caixa-cabecalho {
+background: url("../img/first-img.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-color: rgb(199, 162, 204);
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+opacity: 80%;
 
+}
+
+.caixa-cabecalho h1 {
+
+    background-color:rgba(48, 42, 42, 0.8);
+    background-blend-mode: color;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    padding: 2% 0 2% 0;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 3rem;
     
-
-
 }
