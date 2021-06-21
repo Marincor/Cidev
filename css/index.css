@@ -29,7 +29,7 @@ opacity: 80%;
 
 .caixas-section {
 
-    background: linear-gradient(to bottom, white 60%, rgb(89, 63, 104));
+    background: linear-gradient(to bottom, white 60%, rgb(89, 63, 104, 0.5));
     height: 40%;
     padding: 4%;
     text-align: center;
