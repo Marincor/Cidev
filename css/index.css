@@ -26,3 +26,31 @@ opacity: 80%;
     letter-spacing: 3rem;
     
 }
+
+.caixas-section {
+
+    background: linear-gradient(to bottom, white 60%, rgb(89, 63, 104));
+    height: 40%;
+    padding: 4%;
+    text-align: center;
+
+
+}
+
+.titulos-section {
+
+    font-family: 'Noto Serif JP', serif;
+    margin-bottom: 3%;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.paragrafos-section {
+
+    text-align: justify;
+    color: black;
+    line-height: 125%;
+    font-size: 1rem;
+
+}
