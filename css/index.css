@@ -1,3 +1,6 @@
+
+
+
 .caixa-cabecalho {
 background: url("../img/first-img.jpg");
 background-size: cover;
@@ -152,3 +155,139 @@ opacity: 80%;
             font-weight: bolder;
         }
         
+
+        @media screen and (min-width:300px) {
+
+
+            .caixa-cabecalho {
+
+                display: flex;
+                align-items:center;
+                flex-direction: row;
+                justify-content: center;
+                overflow-x: hidden;
+                
+            }
+            .caixa-cabecalho h1 {
+                
+                width: 80%;
+                font-size: 1rem;
+                padding: 1rem 0 1rem 3rem;
+                margin-right: 5rem;
+                
+            }
+
+            .titulos-section {
+
+                font-size: 1.5rem;
+                padding-bottom: 1rem;
+            }
+
+            .paragrafos-section {
+
+                font-size: 1rem ;
+                padding: 0rem 1rem 0rem 1rem;
+            }
+
+            .cabecalho-caixa2 h2 {
+
+                font-size: 1rem;
+                line-height: 2rem;
+            }
+
+            .cabecalho-caixa3 h2 {
+
+                font-size: 1rem;
+                line-height: 2rem;
+            }
+
+            .finalpage{
+                display: flex;
+                align-items:center;
+                flex-direction: column;
+                justify-content: center;
+                overflow-x: hidden;
+
+            }
+            .finalpage span {
+
+                width: 80%;
+                font-size: 1rem;
+                padding: 1rem 0 1rem 3rem;
+                margin-right: 6rem;
+            }
+
+            
+            
+        }
+
+        @media screen and (min-width:600px) {
+
+            .caixa-cabecalho h1 {
+                
+                width: 320px;
+                    font-size: 1rem;
+                    padding: 1rem 0 1rem 3rem;
+                    margin-right: 10rem;
+                
+            }
+
+            .finalpage span {
+
+                width: 320px;
+                font-size: 1rem;
+                padding: 1rem 0 1rem 3rem;
+                margin-right: 10rem;
+            
+            }
+
+        }
+
+
+        @media screen and (min-width:1024px) {
+
+            .caixa-cabecalho, .finalpage{
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                padding: 0rem;
+                margin: 0rem;
+            }
+
+
+            .caixa-cabecalho h1 {
+
+                background-color:rgba(48, 42, 42, 0.8);
+                background-blend-mode: color;
+                color: white;
+                width: 50%;
+                padding: 1rem 0 1rem 3rem;
+                font-family: 'Maven Pro', sans-serif;
+                font-size: 2.5rem;
+                letter-spacing: 3rem;
+                
+            }
+
+           
+            .finalpage span {
+
+               
+                background-color:rgba(48, 42, 42, 0.8);
+                background-blend-mode: color;
+                color: white;
+                width: 50%;
+                padding: 1rem 0 1rem 3rem;
+                font-family: 'Maven Pro', sans-serif;
+                font-size: 2.5rem;
+                letter-spacing: 3rem;
+            
+            }
+
+            .finalpage p {
+
+                margin-left: 30rem;
+            }
+            
+        }
